@@ -17,5 +17,10 @@ def page():
 def about():
     return "<h1>This is a great page for Filipis</h1>"
 
+
+@app.route("/fail")
+def fail():
+    return "<h1>Page for fails</h1>"
+
 if __name__ == "__main__":
     app.run(debug=True)

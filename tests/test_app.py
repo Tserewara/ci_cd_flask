@@ -6,4 +6,4 @@ def test_index_returns_html():
 
 
 def test_page_returns_html():
-    assert page() == "<h1>Page is here</h1>"
+    assert page() == "<h1>Page is here</h1"
