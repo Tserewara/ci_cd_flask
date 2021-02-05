@@ -9,6 +9,10 @@ def index():
     return "<h1>Hello World</h1>"
 
 
+@app.route("/page")
+def page():
+    return "<h1>Page is here</h1>"
+
 
 if __name__ == "__main__":
     app.run(debug=True)
