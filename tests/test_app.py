@@ -1,4 +1,4 @@
-from src.flask_app import index
+from src.flask_app import index, page
 
 
 def test_index_returns_html():
