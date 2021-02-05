@@ -15,7 +15,7 @@ def page():
 
 @app.route("/about")
 def about():
-    return "<h1>This is a great page</h1>"
+    return "<h1>This is a great page for Filipis</h1>"
 
 if __name__ == "__main__":
     app.run(debug=True)
